@@ -1,0 +1,19 @@
+body {
+    font-size: 16px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+
+// ========= Miscellaneous ========= //
+.spin {
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform:rotate(360deg);
+    }
+}

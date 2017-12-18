@@ -1,0 +1,16 @@
+.newsletter {
+    background: #eee;
+    margin-top: 3em;
+    padding: 3em;
+    text-align: center;
+
+    .help-block {
+        text-align: left;
+    }
+
+    .form-group {
+        @media (min-width: 768px) {
+            margin-bottom: 0;
+        }
+    }
+}

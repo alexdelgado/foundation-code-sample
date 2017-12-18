@@ -1,0 +1,65 @@
+.section {
+    &--styled {
+        .section {
+            &__header {
+                margin-bottom: 1em;
+                padding: 6em 1em 0;
+                position: relative;
+                text-align: center;
+
+                &:before,
+                &:after {
+                    border-bottom: solid 1.5px;
+                    border-top: solid 1.5px;
+                    content: '';
+                    height: .4em;
+                    opacity: .1;
+                    position: absolute;
+                    top: 3em;
+                    width: 35%;
+
+                    @media (min-width: 768px) {
+                        width: 43%;
+                    }
+                }
+
+                &:before {
+                    left: 0;
+                }
+
+                &:after {
+                    right: 0;
+                }
+
+                .icon {
+                    cursor: default;
+                    left: 0;
+                    position: absolute;
+                    text-align: center;
+                    top: .75em;
+                    width: 100%;
+
+                    &::before {
+                        font-size: 5em;
+                        opacity: .35;
+                    }
+                }
+            }
+        }
+    }
+
+    &__header-img {
+        margin: 0 15px;
+        max-height: 350px;
+        overflow: hidden;
+
+        @media (min-width: 768px) {
+            margin: 0 0 2em;
+        }
+
+        .thumbnail__container {
+            max-height: 340px;
+            overflow: hidden;
+        }
+    }
+}

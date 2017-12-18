@@ -1,0 +1,79 @@
+<!-- $pageTitle = Contact | -->
+<!-- $pageClass = contact -->
+<!-- $navItem1 = <li class=""><a href="index.html">Home</a></li> -->
+<!-- $navItem2 = <li class=""><a href="about.html">About</a></li> -->
+<!-- $navItem3 = <li class="active"><a href="contact.html">Contact <span class="sr-only">(current)</span></a></li> -->
+
+<!-- @import /src/html/partials/_header.kit -->
+
+    <!-- @import /src/html/partials/_nav.kit -->
+
+    <header class="section section_name_one section--styled">
+        <div class="row">
+            <div class="small-12 columns section__header">
+                <i class="fa fa-envelope icon"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="section section_name_two">
+        <div class="row">
+            <div class="section__header-img thumbnail">
+                <div class="thumbnail__container">
+                    <img src="img/dan-gold-290327.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+            <aside class="small-12 medium-4 columns sidebar">
+                <article class="sidebar__article">
+                    <h3 class="sidebar__title"><i class="fa fa-google"></i> Locations</h3>
+                    <blockquote class="sidebar__blockquote">
+                        <p><strong>Untitled Coporation</strong> <br> 345 Spear St. <br> San Francisco, CA, 94105 <br> <a href="tel:+12125650000">(212) 565 - 0000</a></p>
+                    </blockquote>
+                    <blockquote class="sidebar__blockquote">
+                        <p><strong>Untitled Coporation</strong> <br> 111 8th Ave. <br> New York, NY, 10011 <br> <a href="tel:+14157360000">(415) 736 - 0000</a></p>
+                    </blockquote>
+                    <blockquote class="sidebar__blockquote">
+                        <p><strong>Untitled Coporation</strong> <br> 1-13 St Giles High St. <br> London WC2H 8AG <br> <a href="tel:+442070313000">+44 (20) 7031 3000</a></p>
+                    </blockquote>
+                    <blockquote class="sidebar__blockquote">
+                        <p><strong>Untitled Coporation</strong> <br> 48 Pirrama Rd. <br> Pyrmont, NSW, 2009 <br> <a href="tel:+610293744000">+61 (02) 9374 4000</a></p>
+                    </blockquote>
+                </article>
+            </aside>
+            <article class="small-12 medium-8 columns">
+                <h1>Contact Us</h1>
+                <form action="" method="post" id="contact-form" class="row contact-form">
+                    <div class="form-group small-12 medium-6 columns">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="firstName" id="first-name" class="input--large" placeholder="Jane" required>
+                    </div>
+                    <div class="form-group small-12 medium-6 columns">
+                        <label for="first-name">Last Name</label>
+                        <input type="text" name="lastName" id="last-name" class="input--large" placeholder="Doe">
+                    </div>
+                    <div class="form-group small-12 columns">
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="email" class="input--large" aria-describedby="emailHelp" placeholder="jane@mail.com" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group small-12 columns">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject" class="input--large" placeholder="I'd like to hire you for..." required>
+                    </div>
+                    <div class="form-group small-12 columns">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" class="input--large" placeholder="I have a project that requires.." rows="5" required></textarea>
+                    </div>
+                    <div class="form-group small-12 columns">
+                        <input type="checkbox" name="terms" id="terms" class="form-check-input" required>
+                        <label for="terms"><small>I have read and agree to the <a href="#" target="_self">terms and conditions</a> of this site.</small></label>
+                    </div>
+                    <div class="form-group small-12 columns">
+                        <button type="submit" class="button large"><i class="fa fa-refresh spin" style="display:none"></i> Send Message</button>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </section>
+
+<!-- @import /src/html/partials/_footer.kit -->

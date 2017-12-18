@@ -1,0 +1,33 @@
+.button {
+    margin-bottom: 0;
+
+    &-flat {
+        background-image: none;
+        border: none;
+        text-shadow: none;
+    }
+
+    &-transparent {
+        appearance: none;
+        background: none;
+        border: solid 1px;
+        color: inherit;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 0.8em;
+        font-weight: 900;
+        letter-spacing: .125em;
+        line-height: 3.75em;
+        min-width: 18em;
+        padding: 0 0.75em;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+        &:hover {
+            background: rgba(188, 202, 206, 0.15);
+            border-color: inherit;
+        }
+    }
+}

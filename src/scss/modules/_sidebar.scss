@@ -1,0 +1,14 @@
+.sidebar {
+    &__article {
+        margin-bottom: 2em;
+    }
+
+    &__blockquote {
+        margin: 1em 0;
+        padding-top: 0;
+
+        p:first-child {
+            margin-top: 0;
+        }
+    }
+}

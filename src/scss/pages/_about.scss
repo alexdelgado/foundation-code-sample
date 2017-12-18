@@ -1,0 +1,14 @@
+.about {
+    .section {
+        font-size: 1.15em;
+        line-height: 1.85em;
+
+        &_name_two {
+            .section {
+                &__title {
+                    margin-bottom: 1em;
+                }
+            }
+        }
+    }
+}

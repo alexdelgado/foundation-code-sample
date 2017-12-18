@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Alex Delgado -- Lead Developer -- @alexdelgadony
+
+# THANKS
+
+    HTML5 Boilerplate
+    Zurb Foundation Framework
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JavaScript

@@ -1,0 +1,44 @@
+.homepage {
+    .section {
+        margin-top: 3em;
+
+        @media (min-width: 768px) {
+            margin-top: 7em;
+        }
+
+        &_name_one {
+            @media (min-width: 768px) {
+                margin-top: 5em;
+            }
+
+            .section {
+                &__content {
+                    font-size: 1.25em;
+                    text-align: center;
+                }
+            }
+        }
+
+        &_name_two {
+            .section {
+                &__container {
+                    background: #fbfbfb;
+                    padding: 2em 1em;
+
+                    @media (min-width: 768px) {
+                        margin-top: 3em;
+                        padding: 2em 4em;
+                    }
+                }
+
+                &__content {
+                    font-size: 1.25em;
+                }
+            }
+
+            .thumbnail {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,190 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Contact | Foundation Code Sample</title>
+    <meta name="description" content="A simple responsive website built using the Zurb Foundation framework.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/theme.min.css">
+</head>
+<body class="contact">
+
+    <div class="off-canvas-wrapper">
+
+        <nav class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition="overlap">
+
+            <!-- Close button -->
+            <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <h2 class="off-canvas__title">Untitled</h2>
+
+            <!-- Menu -->
+            <ul class="vertical menu off-canvas__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+
+
+    <div data-sticky-container>
+        <div class="title-bar" data-sticky data-options="marginTop:0;">
+            <div class="title-bar-left">
+                <button class="menu-icon show-for-small-only" type="button" data-open="offCanvas"></button>
+                <span class="title-bar-title">Untitled</span>
+                <ul class="menu main-nav hide-for-small-only">
+                    <li class=""><a href="index.html">Home</a></li>
+                    <li class=""><a href="about.html">About</a></li>
+                    <li class="active"><a href="contact.html">Contact <span class="sr-only">(current)</span></a></li>
+                </ul>
+            </div>
+            <div class="title-bar-right">
+                <ul class="menu hide-for-small-only social-menu">
+                    <li>
+                        <a href="#" target="_self" title="Follow Us on facebook" class="social-menu__icon">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_self" title="Follow Us on instagram" class="social-menu__icon">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_self" title="Follow Us on github" class="social-menu__icon">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_self" title="Follow Us on twitter" class="social-menu__icon">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    <header class="section section_name_one section--styled">
+        <div class="row">
+            <div class="small-12 columns section__header">
+                <i class="fa fa-envelope icon"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="section section_name_two">
+        <div class="row">
+            <div class="section__header-img thumbnail">
+                <div class="thumbnail__container">
+                    <img src="img/dan-gold-290327.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+            <aside class="small-12 medium-4 columns sidebar">
+                <article class="sidebar__article">
+                    <h3 class="sidebar__title"><i class="fa fa-google"></i> Locations</h3>
+                    <blockquote class="sidebar__blockquote">
+                        <p><strong>Untitled Coporation</strong> <br> 345 Spear St. <br> San Francisco, CA, 94105 <br> <a href="tel:+12125650000">(212) 565 - 0000</a></p>
+                    </blockquote>
+                    <blockquote class="sidebar__blockquote">
+                        <p><strong>Untitled Coporation</strong> <br> 111 8th Ave. <br> New York, NY, 10011 <br> <a href="tel:+14157360000">(415) 736 - 0000</a></p>
+                    </blockquote>
+                    <blockquote class="sidebar__blockquote">
+                        <p><strong>Untitled Coporation</strong> <br> 1-13 St Giles High St. <br> London WC2H 8AG <br> <a href="tel:+442070313000">+44 (20) 7031 3000</a></p>
+                    </blockquote>
+                    <blockquote class="sidebar__blockquote">
+                        <p><strong>Untitled Coporation</strong> <br> 48 Pirrama Rd. <br> Pyrmont, NSW, 2009 <br> <a href="tel:+610293744000">+61 (02) 9374 4000</a></p>
+                    </blockquote>
+                </article>
+            </aside>
+            <article class="small-12 medium-8 columns">
+                <h1>Contact Us</h1>
+                <form action="" method="post" id="contact-form" class="row contact-form">
+                    <div class="form-group small-12 medium-6 columns">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="firstName" id="first-name" class="input--large" placeholder="Jane" required>
+                    </div>
+                    <div class="form-group small-12 medium-6 columns">
+                        <label for="first-name">Last Name</label>
+                        <input type="text" name="lastName" id="last-name" class="input--large" placeholder="Doe">
+                    </div>
+                    <div class="form-group small-12 columns">
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="email" class="input--large" aria-describedby="emailHelp" placeholder="jane@mail.com" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group small-12 columns">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject" class="input--large" placeholder="I'd like to hire you for..." required>
+                    </div>
+                    <div class="form-group small-12 columns">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" class="input--large" placeholder="I have a project that requires.." rows="5" required></textarea>
+                    </div>
+                    <div class="form-group small-12 columns">
+                        <input type="checkbox" name="terms" id="terms" class="form-check-input" required>
+                        <label for="terms"><small>I have read and agree to the <a href="#" target="_self">terms and conditions</a> of this site.</small></label>
+                    </div>
+                    <div class="form-group small-12 columns">
+                        <button type="submit" class="button large"><i class="fa fa-refresh spin" style="display:none"></i> Send Message</button>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <ul class="footer__social-menu">
+                                <li>
+                                    <a href="#" target="_self" title="Follow Us on facebook" class="footer__social-icon">
+                                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" title="Follow Us on instagram" class="footer__social-icon">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" title="Follow Us on github" class="footer__social-icon">
+                                        <i class="fa fa-github" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" title="Follow Us on twitter" class="footer__social-icon">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="footer__copyright">&copy; 2017 Untitled Corporation. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <!-- /.off-canvas-content -->
+
+    </div>
+    <!-- /.off-canvas-wrapper -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="./js/vendor/what-input-4.2.0.min.js"></script>
+    <script src="./js/vendor/foundation-6.4.2.min.js"></script>
+    <script src="./js/theme.min.js"></script>
+    <script>$(document).foundation();</script>
+</body>
+</html>
+
